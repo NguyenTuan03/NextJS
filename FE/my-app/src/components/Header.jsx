@@ -12,7 +12,7 @@ export default function Header() {
         <div className="flex gap-2 items-center">
             <h1 className="text-xl">Nguyen Tuan</h1>
             <Link href={"/"}>Home</Link>
-            <Link href={"/facebook"}>Facebook</Link>
+            <Link href={"/blogs"}>Blogs</Link>
             <Link href={"/tiktok"}>Tiktok</Link>
             <Link href={"/instagram"}>Instagram</Link>
             <div className="relative inline-block text-left">

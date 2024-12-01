@@ -14,7 +14,8 @@ export default function CreateModal({ isOpen, onClose, onSubmit }: CreateModalPr
         onClose(); 
         setTitle('')
         setAuthor('')
-        setContent('')        
+        setContent('')       
+         
     };  
 
     if (!isOpen) return null;  
